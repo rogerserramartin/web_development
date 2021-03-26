@@ -6,7 +6,7 @@ const session = require('express-session');
 
 //Initializations
 const app = express();
-
+require('./database');
 //Settings
 app.set('port', process.env.PORT || 3000); //if a port already exists, use it. if not, use 3000
 app.set('views', path.join(__dirname, 'views')); // concatenate with folder src. //handlebars

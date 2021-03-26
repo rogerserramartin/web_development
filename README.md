@@ -27,7 +27,7 @@ this json file created using that command describes the whole project:
   },
   "homepage": "https://github.com/rogersm92/web_development#readme"
 }
-# 2) npm install (or i) express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
+# 2) npm install (or i) express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash 
 npm i express express-handlebars express-session method-override mongoose passport passport-local bcryptjs connect-flash
 express: Fast, unopinionated, minimalist web framework for node.
 handlebars: template engine (it's like an html extension)
@@ -37,3 +37,4 @@ mongoose: module that allows us to connect with mongodb
 passport and passport-local: used for user authentication
 bcryptjs: for user password encryptation, to convert it into a hash
 connect-flash: used for when a user provides wrong input. We'll display an alert with this
+npm i nodemon -D: restart server automatically
