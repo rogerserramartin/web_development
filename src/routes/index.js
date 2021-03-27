@@ -2,11 +2,11 @@ const router = require('express').Router();//
 module.exports = router;
 
 router.get('/', (req, res) => {
-    res.send('Index'); //this says: return me Index word on root page
+    res.render('index'); //index.hbs extension not required
 });
 
 router.get('/about', (req, res) => {
-    res.send('About'); //this says: return me About word on /about page
+    res.render('about'); 
 });
 
 module.exports = router;
